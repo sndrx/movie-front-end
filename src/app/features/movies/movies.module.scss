@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    max-width: 100vw;
+    height: 85vh;
+    flex-wrap: wrap;
+
+    .movies {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5vh 5vw;
+
+        .movieCard {
+            margin: 5vh 2vw;
+
+            .movieCardContent{
+                width: 20vw;
+                height: 25vh;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: end;
+
+                .movieGenre{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
